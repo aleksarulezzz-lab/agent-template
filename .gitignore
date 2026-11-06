@@ -1,0 +1,39 @@
+# Секреты и ключи — никогда не коммитить
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+*.token
+
+# Личные настройки Claude Code (общие — в .claude/settings.json)
+.claude/settings.local.json
+
+# Временные файлы и мусор ОС/редакторов
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+tmp/
+temp/
+*.log
+
+# Python / Node, если появятся скрипты
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
